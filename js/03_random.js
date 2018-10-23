@@ -59,7 +59,7 @@ TO DO:
 
 var shape = document.querySelector(".shape");
 
-shape.style.width = randomNumber(150, 700);
+shape.style.width = randomNumber(150, 700) + "px";
 shape.style.height = "150px";
 
 
