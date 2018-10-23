@@ -70,7 +70,7 @@ var h = randomNumber(0, 359);
 
 
 shape.style.background = hslColor(h, 50, 50);
-shape.style.borderColor = hslColor(h+30, 50, 50);
+shape.style.borderColor = hslColor(h, 90, 50);
 
 
 
