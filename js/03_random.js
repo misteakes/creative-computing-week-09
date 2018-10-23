@@ -57,6 +57,8 @@ TO DO:
 
 */
 
+var shape = document.querySelector(".shape")
+
 
 
 
