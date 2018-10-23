@@ -65,6 +65,8 @@ var height = randomNumber(150, 1000);
 shape.style.width = width + "px";
 shape.style.height = height + "px";
 
+shape.style.background = hslColor(20, 50, 50);
+
 
 
 
