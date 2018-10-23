@@ -65,21 +65,21 @@ var height = randomNumber(150, 1000);
 shape.style.width = width + "px";
 shape.style.height = height + "px";
 
-/*var h = randomNumber(0, 359);*/
+var h = randomNumber(0, 359);
 
-var h1 = randomNumber(160, 180);
+/* var h1 = randomNumber(160, 180);
 var h2 = randomNumber(180, 200);
-var h3 = randomNumber(200, 220);
+var h3 = randomNumber(200, 220); */
 
-shape.style.background = hslColor(h1, 50, 50);
-shape.style.borderColor = hslColor(h2, 90, 50);
+shape.style.background = hslColor(h, 50, 50);
+shape.style.borderColor = hslColor(h, 90, 50);
 
 
 
 
 var container = document.querySelector(".content");
 
-container.style.background = hslColor(h3+180, 50, 30);
+container.style.background = hslColor(h+180, 50, 30);
 
 
 
