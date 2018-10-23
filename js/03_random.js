@@ -76,7 +76,7 @@ shape.style.borderColor = hslColor(h, 90, 50);
 
 var container = document.querySelector(".content");
 
-container.style.background = hslColor(h+180, 50, 70);
+container.style.background = hslColor(h+180, 50, 30);
 
 
 
