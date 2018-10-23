@@ -60,10 +60,10 @@ TO DO:
 var shape = document.querySelector(".shape");
 
 var width = randomNumber(150, 700); 
+var height = randomNumber(150, 1000);
 
 shape.style.width = width + "px";
-
-shape.style.height = "150px";
+shape.style.height = height + "px";
 
 
 
